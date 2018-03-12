@@ -6,12 +6,12 @@ module.exports = function longestConsecutiveLength(array) {
 }
 array.sort(compare); 
   let count=-1, thiscount=0;
- for(let i=0; i<=array.length;i++){
+ for(let i=0; i<array.length;i++){
   
-     thiscount++;
-       if(count>
-   if(array[i+1]-array[i]===1)
-     continue;
+  thiscount++;
+  if(array[i+1]-array[i]===1)
+  continue;
+    
    elseif(array[i+1]-array[i]===0)
      {
      thiscount--;
